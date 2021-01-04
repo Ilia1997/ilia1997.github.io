@@ -1,0 +1,363 @@
+.footer {
+  background-color: #141a20;
+}
+.foot_wrap {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 42px;
+  padding-bottom: 31px;
+  align-items: flex-start;
+}
+.company {
+  grid-area: foot_1;
+}
+.company p {
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.846154px;
+  color: #ffffff;
+  max-width: 250px;
+  padding-bottom: 19px;
+}
+
+#company_text {
+  font-size: 11px;
+  line-height: 19px;
+  letter-spacing: 0.85px;
+  color: #ffffff;
+  padding-top: 15px;
+}
+.links_item {
+  cursor: pointer;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.846154px;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+.links_items,
+.some_items li,
+.some_items_2 li {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 25px;
+  letter-spacing: 0.846154px;
+  color: #ffffff;
+}
+.some_items_3 {
+  max-width: 141px;
+}
+.some_items_3 li:nth-child(2) {
+  max-width: 104px;
+}
+.some_items_3 li {
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.846154px;
+  color: #ffffff;
+  padding-bottom: 15px;
+  white-space: pre-line;
+}
+.some_items_3 li:last-child {
+  padding-bottom: 0;
+}
+.wrap_blocks {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 262px;
+  grid-area: foot_2;
+}
+.block_5 {
+  grid-area: foot_3;
+}
+.block_6 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 88px;
+  padding-top: 30px;
+  grid-area: foot_4;
+}
+.block_6 img {
+  cursor: pointer;
+  filter: brightness(0) invert(1);
+  width: 15px;
+  height: 15px;
+}
+#i1 img {
+  width: 25px;
+  height: 25px;
+}
+#i2 img {
+  width: 18px;
+  height: 18px;
+}
+.nav_h1.foot {
+  color: #fff;
+  font-size: 27px;
+  letter-spacing: 1.9875px;
+}
+.block_3,
+.block_4 {
+  padding-top: 25px;
+}
+
+.footer_wrap_end {
+  background: #171819;
+}
+.footer_wrap_end p {
+  padding: 22px;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.946154px;
+  color: #ffffff;
+  text-align: center;
+}
+.wrapper_p {
+  display: flex;
+  justify-content: center;
+}
+
+/* This we make our page responsive */
+
+@media (max-width: 767px) {
+   .get_in_touch_wrap {
+    min-height: 480px;
+  }
+  .head_title {
+    padding-top: 250px;
+    padding-bottom: 200px;
+  }
+  .header_wrapper {
+    max-height: 650px;
+  }
+  .block_6 {
+    max-width: 100%;
+    justify-content: center;
+    padding-top: 0;
+  }
+  .block_6 img {
+    width: 20px;
+    height: 20px;
+  }
+  #i1 img {
+    width: 35px;
+    height: 35px;
+  }
+  #i2 img {
+    width: 25px;
+    height: 25px;
+  }
+  .block_6 .png {
+    margin-right: 35px;
+  }
+  .block_6 .png:nth-child(3) {
+    margin-right: 0;
+  }
+  .some_items_3 {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .some_items_3 li:nth-child(2) {
+    max-width: 100%;
+  }
+  .foot_wrap {
+    display: grid;
+    grid-template-areas:
+      "foot_1 foot_2"
+      "foot_3 foot_3"
+      "foot_4 foot_4";
+    grid-template-rows: 50% 35% 15%;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    height: 550px;
+    margin: 0;
+  }
+  .sif_h1 {
+    display: flex;
+    justify-content: center;
+    padding-right: 0;
+    margin-bottom: 10px;
+  }
+  .wrap_sif {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .input_sif {
+    max-width: 400px;
+  }
+  .get_in_touch {
+    padding-top: 0;
+  }
+  .f p {
+    font-size: 20px;
+  }
+  .story_title {
+    display: flex;
+    flex-direction: column;
+  }
+  .story_gallery {
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+  .story_title_1 {
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    max-width: 767px;
+  }
+  .story_1_wrap {
+    width: 100%;
+    max-width: 406px;
+  }
+
+  .story_title_2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .git_1 {
+    padding-top: 120px;
+  }
+  .git_1 p {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .cap_blocks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding: 15px 45px;
+  }
+
+  .cap_block_container {
+    display: flex;
+    flex-basis: 100%;
+
+    margin-bottom: 15px;
+  }
+  .our_capabilities {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    height: 100%;
+  }
+  .all_cap {
+    display: flex;
+    justify-content: space-between;
+  }
+  .tatle_cap {
+    padding-bottom: 10px;
+  }
+  .story {
+    padding-bottom: 20px;
+  }
+  .story_wrap {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+  }
+  .nav_wrap {
+    display: none;
+  }
+  .head_title_h1 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .head_title_p {
+    font-size: 12px;
+    line-height: 17px;
+  }
+  body.lock {
+    overflow: hidden;
+  }
+  .head_sub_wrap_ws {
+    display: flex;
+    flex-direction: column;
+
+    /* */
+  }
+  .head_sub_wrap {
+    display: none;
+  }
+}
+@media (max-width: 479px) {
+  .container {
+    padding: 0 20px;
+  }
+  .head_title_h1 {
+    letter-spacing: 2.70937px;
+  }
+  .some_items_3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .foot_wrap {
+    display: grid;
+    grid-template-areas:
+      "foot_1"
+      "foot_2"
+      "foot_3"
+      "foot_4";
+    grid-template-rows: repeat(3, 1fr) 30px;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    height: 100%;
+    max-height: 600px;
+    margin: 0;
+    padding-top: 70px;
+  }
+  .story_gallery {
+    margin-top: 50px;
+  }
+  .f p {
+    font-size: 16px;
+  }
+  .sif_h1 {
+    display: flex;
+    justify-content: center;
+    padding-right: 0;
+    margin-bottom: 10px;
+  }
+  .input_sif {
+    justify-content: center;
+  }
+  .wrap_sif {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /* .get_in_touch_wrap {
+    min-height: 450px;
+  } */
+  .git_1 {
+    padding-top: 80px;
+  }
+  .get_in_touch {
+    padding-top: 0;
+  }
+  .all_cap {
+    display: flex;
+    flex-direction: column;
+  }
+  .all_cap p {
+    padding-bottom: 15px;
+  }
+  .cap_blocks {
+    padding: 20px 15px;
+  }
+}
